@@ -1,0 +1,95 @@
+/* src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #3545d2;
+  color: white;
+  font-family: Arial, sans-serif;
+
+}
+
+.welcome-heading {
+  font-size: 3em;
+  margin: 0.5em;
+}
+
+/* Header Styling */
+.header {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #282c34;
+  color: rgb(221, 196, 196);
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Main Content Styling */
+.content {
+  margin: 2em auto;
+  padding: 1em;
+  max-width: 800px;
+  text-align: left;
+}
+
+/* Links */
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.resource-section {
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.resource-section h3 {
+  color: #1E90FF;
+  margin-bottom: 0.5em;
+}
+
+.resource-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resource-section li {
+  margin-bottom: 1em;
+}
+
+.resource-section h4 {
+  color: #1E90FF;
+  font-size: 1.2em;
+  margin: 0.2em 0;
+}
+
+.resource-section p {
+  color: #333;
+}
+
+.resource-section a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.resource-section a:hover {
+  text-decoration: underline;
+}
