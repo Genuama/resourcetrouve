@@ -6,6 +6,8 @@ import Tips from './components/Tips';
 import Footer from './components/Footer';
 import './App.css';
 
+
+
 function App() {
   return (
     <Router>
